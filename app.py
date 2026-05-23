@@ -156,6 +156,9 @@ if df.empty:
 #   best_pm25      = the min PM2.5 reading
 #   best_station   = the station name where best_pm25 occurred
 
+# === TODO 2 - YOUR CODE HERE ===
+
+# (delete there placeholders and write the real lines)
 avg_pm25 = round(df["pm25"].mean(), 1)
 sensor_count = len(df)
 worst_pm25 = df["pm25"].max()
